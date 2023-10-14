@@ -169,3 +169,41 @@ button:hover{
 #totou .allcard .card h3{
     font-size: 16px;
 }
+
+#promo{
+    padding-top: 50px;
+}
+#promo h2{
+    font-size: 25px;
+    color: #002F76;
+    text-align: center;
+    text-decoration-line: underline;
+}
+#promo .cardpromoall{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+
+}
+#promo .cardpromoall .promocard{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    
+}
+#promo .cardpromoall .promocard img{
+    width: 10%;
+}
+
+.linecross {
+    width: 10px;
+    height: 200px;
+    background-color: #485545;
+    z-index: 2;
+}
+
+#footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);
+    margin-top: 100px;
+}
