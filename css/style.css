@@ -174,9 +174,9 @@ button:hover{
     padding-top: 50px;
 }
 #promo h2{
-    font-size: 25px;
+    font-size: 50px;
     color: #002F76;
-    text-align: center;
+    margin-left: 40px;
     text-decoration-line: underline;
 }
 #promo .cardpromoall{
@@ -212,12 +212,20 @@ button:hover{
 .btn-2{
     width: 60%;
     height: 30px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin: 50px;
+    padding: 30px;
 }
 /* footer */
 #footer{
+    color: #ffff;
     background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);
-    margin-top: 100px;
+    padding-left: 20px;
+}
+#footer .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer h3{
+    font-size: 40px;
 }
