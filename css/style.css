@@ -219,7 +219,7 @@ button:hover{
 #footer{
     color: #ffff;
     background: rgb(2,0,36);
-    padding: 50px;
+    padding: 20px;
 }
 #footer .foot{
     display: flex;
