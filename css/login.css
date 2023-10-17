@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     font-family: comic;
     overflow: hidden;
-
+    font-family: 'Prompt', sans-serif;
 }
 
 .back{
