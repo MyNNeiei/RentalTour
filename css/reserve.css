@@ -20,9 +20,9 @@ body{
     padding-bottom: 20px;
 }
 .card-container{
-    display: grid;
-    grid-template-columns: 600px 600px;
-    place-self: center;
+    display: flex;
+    justify-content: center;
+    
 }
 .banner h2{
     padding-bottom: 40px;
@@ -68,6 +68,67 @@ form input[type = submit]{
 }
 form input[type = submit]:hover{
     opacity: 0.9;
+}
+
+#promo{
+    margin-top: 150px;
+}
+#promo h2{
+    font-size: 50px;
+    color: #002F76;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+#promo .cardpromoall{
+    display: flex;
+    flex-direction: column;
+
+}
+#promo .cardpromoall .promocard{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 50%;
+    border: 1px #002F76 solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#promo .cardpromoall .promocard img{
+    width: 20%;
+}
+#promo .cardpromoall .promocard .about{
+    margin-left: 30px;
+}
+.linecross {
+    width: 10px;
+    height: 150px;
+    background-color: #485545;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+.btn-2{
+    width: 60%;
+    height: 30px;
+    margin: 50px;
+    padding: 30px;
+}
+/* footer */
+#footer{
+    color: #ffff;
+    background: rgb(2,0,36);
+    padding: 20px;
+}
+#footer .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer h3{
+    font-size: 40px;
 }
 @media(max-width: 992px){
     .card-container{
