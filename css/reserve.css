@@ -9,6 +9,42 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Navbar */
+#nav-bar{
+    background-color: #002F76;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+#nav-bar img{
+    width: 100px;
+    padding-left: 30px;
+}
+
+#nav-bar .bar{
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#nav-bar .bar li{
+    list-style: none;
+    padding-right: 50px;
+}
+#nav-bar .bar li:hover{
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+    z-index: 999;
+}
+#nav-bar .bar a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
 .banner{
     min-height: 100vh;
     background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);

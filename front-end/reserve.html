@@ -7,6 +7,16 @@
     <title>Reserve</title>
 </head>
 <body>
+    <div id="nav-bar">
+        <a href="index.html"><img src="../img/logo.svg" alt="logoja"></a>
+        <ul class="bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#totou">About</a></li>
+            <li><a href="front-end/reserve.html">Reserve</a></li>
+            <li><a href="front-end/history.html">History</a></li>
+            <li><a href="front-end/login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+        </ul>
+    </div>
     <section class = "banner">
             <h2>WHAT BUS DO YOU WANT</h2>
             <div class = "card-container">
@@ -17,42 +27,17 @@
                     <h3>Reservation</h3>
                     <form>
                         <div class = "form-row">
-                            <select name = "days">
-                                <option value = "day-select">Select Day</option>
-                                <option value = "sunday">Sunday</option>
-                                <option value = "monday">Monday</option>
-                                <option value = "tuesday">Tuesday</option>
-                                <option value = "wednesday">Wednesday</option>
-                                <option value = "thursday">Thursday</option>
-                                <option value = "friday">Friday</option>
-                                <option value = "saturday">Saturday</option>
+                            <select name = "Bus">
+                                <option value = "hour-select">Select Bus</option>
+                                <option value = "suv">Bus</option>
+                                <option value = "suv">SUV</option>
+                                <option value = "van">Van</option>
                             </select>
+                        </div>
 
-                            <select name = "hours">
-                                <option value = "hour-select">Select Time</option>
-                                <option value = "10">10: 00</option>
-                                <option value = "10">12: 00</option>
-                                <option value = "10">14: 00</option>
-                                <option value = "10">16: 00</option>
-                                <option value = "10">18: 00</option>
-                                <option value = "10">20: 00</option>
-                                <option value = "10">22: 00</option>
-                            </select>
-                        </div>
-                        <div class="form-row">
-                            <select name = "days">
-                                <option value = "day-select">Select Day</option>
-                                <option value = "sunday">Sunday</option>
-                                <option value = "monday">Monday</option>
-                                <option value = "tuesday">Tuesday</option>
-                                <option value = "wednesday">Wednesday</option>
-                                <option value = "thursday">Thursday</option>
-                                <option value = "friday">Friday</option>
-                                <option value = "saturday">Saturday</option>
-                            </select>
-                        </div>
                         <div class = "form-row">
-                            <input type = "text" placeholder="Car type">
+                            <input type = "text" placeholder="Start">
+                            <input type = "text" placeholder="Arrived">
                         </div>
 
                         <div class = "form-row">

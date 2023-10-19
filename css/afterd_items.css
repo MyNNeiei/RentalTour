@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.cardre{
+    background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);
+}
+
+.cardre .card{
+    background-color: #fff;
+}
