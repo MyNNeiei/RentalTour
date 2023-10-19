@@ -20,8 +20,8 @@ body{
     padding-bottom: 20px;
 }
 .card-container{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 600px 600px;
     
 }
 .banner h2{
