@@ -166,6 +166,43 @@ form input[type = submit]:hover{
 #footer h3{
     font-size: 40px;
 }
+#totou{
+    padding-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+#totou .allcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+}
+
+#totou .allcard .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 210px;
+    height: 200px;
+    border: #002F76 solid;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding: 20px;
+    transition: transform .2s;
+}
+#totou .allcard .card:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+#totou .allcard .card img{
+    width: 100px;
+}
+#totou .allcard .card h3{
+    font-size: 16px;
+}
 @media(max-width: 992px){
     .card-container{
         grid-template-columns: 100%;
