@@ -133,7 +133,7 @@ form input[type = submit]:hover{
     margin-left: 50px;
 }
 #promo .cardpromoall .promocard img{
-    width: 20%;
+    width: 50%;
 }
 #promo .cardpromoall .promocard .about{
     margin-left: 30px;
@@ -146,11 +146,47 @@ form input[type = submit]:hover{
     z-index: 2;
 }
 
-.btn-2{
+a .btn-2{
     width: 60%;
     height: 30px;
-    margin: 50px;
-    padding: 30px;
+    margin: 50px  0  0 20px;
+    padding: 10px;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+a .btn-2:hover{
+    background-color: #002F76;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    margin:  20px 50px;
+}
+.view .btn-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px 100px;
+    background-color: #002F76;
+    color: #fff;
+    transition: .5s;
+    border: none;
+    border-radius: 30px;
+}
+.view a{
+    text-decoration: none;
+}
+.view .btn-3:hover{
+    background-color: #eee;
+    color: #002F76;
 }
 /* footer */
 #footer{
@@ -206,9 +242,57 @@ form input[type = submit]:hover{
 @media(max-width: 992px){
     .card-container{
         grid-template-columns: 100%;
-        width: 100vw;
+        width: 100%;
     }
     .card-img{
-        height: 330px;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #promo .cardpromoall .promocard{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 50%;
+        border: 1px #002F76 solid;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    .linecross {
+        height: 5px;
+        background-color: #485545;
+        margin-top: 10px;
+        z-index: 2;
+    }
+    .btn-2{
+        width: 60%;
+        height: 30px;
+        margin: 20px  0  0 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #totou .allcard .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 210px;
+        height: 200px;
+        border: #002F76 solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 20px;
+        transition: transform .2s;
+    }
+    #totou .allcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
     }
 }
