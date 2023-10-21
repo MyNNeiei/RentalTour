@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
     font-family: 'Prompt', sans-serif;
+    overflow-x: hidden;
 }
 /* Navbar */
 #nav-bar{
