@@ -229,3 +229,79 @@ button:hover{
 #footer h3{
     font-size: 40px;
 }
+
+
+@media(max-width: 722px){
+    #middle{
+        background: rgb(2,0,36);
+        background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    #nav-bar img{
+        width: 50px;
+        padding-left: 30px;
+    }
+    #nav-bar .bar a {
+        text-decoration: none;
+        color: #ffff;
+        font-size: 16px;
+    }
+    #nav-bar .bar{
+        color: #ffff;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    #nav-bar .bar li{
+        list-style: none;
+        padding-right: 15px;
+    }
+    #nav-bar{
+        background-color: #002F76;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: end;
+        flex-direction: row;
+        padding-bottom: 10px;
+    }
+    #middle .txt_field input{
+        width: 100%;
+        padding: 0 5px;
+        height: 50px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    #totou .allcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    #promo .cardpromoall .promocard{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 50%;
+        border: 1px #002F76 solid;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    #promo .cardpromoall .promocard{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 50%;
+        border: 1px #002F76 solid;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+}
