@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+#nav-bar{
+    background-color: #002F76;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+#nav-bar img{
+    width: 100px;
+    padding-left: 30px;
+}
+
+#nav-bar .bar{
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#nav-bar .bar li{
+    list-style: none;
+    padding-right: 50px;
+}
+#nav-bar .bar li:hover{
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+    z-index: 999;
+}
+#nav-bar .bar a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(0, 47, 118, 0.88) 50.51%, rgba(0, 47, 118, 0.43) 99.03%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: #fff;
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #5fa6f2;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+
+#promo{
+    margin-top: 150px;
+}
+#promo h2{
+    font-size: 50px;
+    color: #002F76;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+#promo .cardpromoall{
+    display: flex;
+    flex-direction: column;
+
+}
+#promo .cardpromoall .promocard{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 50%;
+    border: 1px #002F76 solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#promo .cardpromoall .promocard img{
+    width: 50%;
+}
+#promo .cardpromoall .promocard .about{
+    margin-left: 30px;
+}
+.linecross {
+    width: 10px;
+    height: 150px;
+    background-color: #485545;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+a .btn-2{
+    width: 60%;
+    height: 30px;
+    margin: 50px  0  0 20px;
+    padding: 10px;
+    display: flex;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+a .btn-2:hover{
+    background-color: #002F76;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    margin:  20px 50px;
+}
+.view .btn-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px 100px;
+    background-color: #002F76;
+    color: #fff;
+    transition: .5s;
+    border: none;
+    border-radius: 30px;
+}
+.view a{
+    text-decoration: none;
+}
+.view .btn-3:hover{
+    background-color: #eee;
+    color: #002F76;
+}
+/* footer */
+#footer{
+    color: #ffff;
+    background: rgb(2,0,36);
+    padding: 20px;
+}
+#footer .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer h3{
+    font-size: 40px;
+}
+#totou{
+    padding-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+
+#totou .allcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+}
+
+#totou .allcard .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 210px;
+    height: 200px;
+    border: #002F76 solid;
+    border-radius: 20px;
+    margin-left: 80px;
+    padding: 20px;
+    transition: transform .2s;
+}
+#totou .allcard .card:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+#totou .allcard .card img{
+    width: 100px;
+}
+#totou .allcard .card h3{
+    font-size: 16px;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+    .card-img{
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #promo .cardpromoall .promocard{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 50%;
+        border: 1px #002F76 solid;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    .linecross {
+        height: 5px;
+        background-color: #485545;
+        margin-top: 10px;
+        z-index: 2;
+    }
+    .btn-2{
+        width: 60%;
+        height: 30px;
+        margin: 20px  0  0 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #totou .allcard .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 210px;
+        height: 200px;
+        border: #002F76 solid;
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 20px;
+        transition: transform .2s;
+    }
+    #totou .allcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: normal;
+    }
+}
